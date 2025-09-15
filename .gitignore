@@ -2,3 +2,5 @@
 assets/img/*
 assets/sponsoren/*
 deelnemers*
+*.xlsx
+tables/
