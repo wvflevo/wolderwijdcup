@@ -17,6 +17,7 @@ def to_html_table(df: pd.DataFrame):
     # Wrap the table in a div with class "table-responsive"
     html_table = f'<div class="table-responsive">{html_table}</div>'
     html_table = html_table.replace("\n", "")
+    html_table = html_table.replace("right","center")
     return html_table
 
 
