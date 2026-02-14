@@ -5,3 +5,4 @@ deelnemers*
 *.xlsx
 tables/
 assets/resultaten/*
+!assets/resultaten/stip_html_table.py
