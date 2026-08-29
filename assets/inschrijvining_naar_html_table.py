@@ -38,12 +38,15 @@ def main():
 
     # Convert the DataFrame to HTML with the desired table structure
     html_table = html_table.to_html(
-        classes="table table-hover", index=False, border=0
+        classes="table table-hover text-center", index=False, border=0
     )
 
     # Add custom classes to the table structure
     html_table = html_table.replace(
         "<thead>", '<thead class="table-secondary">'
+    )
+    html_table = html_table.replace(
+        'style="text-align: right;"', ''
     )
 
     # Wrap the table in a div with class "table-responsive"

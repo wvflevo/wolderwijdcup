@@ -1,7 +1,6 @@
 *.csv
 assets/img/*
 assets/sponsoren/*
-deelnemers*
 *.xlsx
 tables/
 assets/resultaten/*
