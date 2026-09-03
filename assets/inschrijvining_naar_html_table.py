@@ -42,12 +42,8 @@ def main():
     )
 
     # Add custom classes to the table structure
-    html_table = html_table.replace(
-        "<thead>", '<thead class="table-secondary">'
-    )
-    html_table = html_table.replace(
-        'style="text-align: right;"', ''
-    )
+    html_table = html_table.replace("<thead>", '<thead class="table-secondary">')
+    html_table = html_table.replace('style="text-align: right;"', "")
 
     # Wrap the table in a div with class "table-responsive"
     html_table = f'<div class="table-responsive">{html_table}</div>'
